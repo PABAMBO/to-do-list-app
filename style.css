@@ -1,0 +1,55 @@
+body {
+  font-style: italic;
+  color: #999999;
+
+  background-image: url("image.jpg");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: 225vh;
+
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1rem;
+}
+
+li button:hover, button:hover {
+  cursor: pointer;
+
+}
+
+li div {
+  margin-top: 2.5vh;
+}
+
+#heading {
+  padding: 5vh 5vw;
+}
+
+#input-form {
+  padding: 5vh 5vw;
+  font-size: 1rem;
+}
+
+#userinput {
+  width: 55vw;
+  height: 5vh;
+}
+
+#enter {
+  height: 5vh;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+

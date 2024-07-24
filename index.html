@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>To-Do List App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body class="tc">
+
+<div id="heading">
+	<h1 id="title" class="fw7"></h1>
+	<h2 id="currentDate" class="fw4"></h2>
+</div>
+
+<div id="note">
+	<p class="paragraph fw4" id="first">*Once you enter your items below, you will have the option to either strike them out or delete them completely.</p>
+</div>
+
+<div id="input-form">
+	<input class="bg-animate hover-bg-light-gray" id="userinput" type="text" placeholder="Add item here">
+	<button id="enter">Enter</button>
+</div>
+
+<div>
+	<ul id="list" class="fw4"></ul>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
